@@ -1,5 +1,15 @@
+logo: ![Profile Image](img/me.jpg){: .profile-pic }
 title: Miglena Pavlova
-logo: img/me.jpg
 # description: text
 #show_downloads: true
 theme: jekyll-theme-minimal
+
+style: >
+  img.profile-pic {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures it doesn't stretch */
+    display: block;
+    margin: auto;
+  }
